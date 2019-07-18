@@ -1,14 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import login from '@/pages/login'
+// import login from '@/pages/login'
 Vue.use(Router)
+const index = () => import('@/pages/index')
+
 
 export default new Router({
   routes: [
     {
-      path: '/login',
-      name: 'login',
-      component: login
+      path: '/',
+      component: index
     }
   ]
 })
