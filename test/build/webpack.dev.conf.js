@@ -10,9 +10,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
 
-// 服务器配置
-var express=require('express')
-var app=express();
+// // 服务器配置
+// var express=require('express')
+// var app=express();
 
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
